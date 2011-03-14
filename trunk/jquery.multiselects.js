@@ -3,15 +3,16 @@
 * http://code.google.com/p/jqmultiselects/
 *
 * Copyright (c) 2007 Rob Desbois
+* Copyright (c) 2011 Rob Desbois, Yury Samsonov
 * Dual licensed under the MIT and GPL licenses:
 * http://www.opensource.org/licenses/mit-license.php
 * http://www.gnu.org/licenses/gpl.html
 *
-* Version: 0.4
+* Version: 0.3
 *
 * CHANGELOG
 *
-* 0.3a1 (Yury Samsonov <yury.samsonov@gmail.com>)
+* 0.3 (Yury Samsonov <yury.samsonov@gmail.com>)
 *
 * INCOMPATIBLE WITH PREVIOUS VERSION!!!
 *

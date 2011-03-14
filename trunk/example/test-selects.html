@@ -5,37 +5,31 @@
    <meta http-equiv='content-type' content='text/html; charset=ISO-8859-1' />
    <title>jqMultiSelects Example Page</title>
    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' type='text/javascript'></script>
-   <script src='../jquery.multiselects.js' type='text/javascript'></script>
+   <script src='../jquery.multiselects.min.js' type='text/javascript'></script>
 
    <script type="text/javascript"><!--
       $(function() {
           var options = {
             sortType: "key",
-            button_select_all: "#options_right",
-            button_deselect_all: "#options_left",
-            button_source_up: "#options_up",
-            button_source_down: "#options_down",
-            button_dest_up: "#dest_up",
-            button_dest_down: "#dest_down",
+            button_select: "#options_right",
+            button_deselect: "#options_left",
+            button_select_all: "#options_right_all",
+            button_deselect_all: "#options_left_all",
           };
           $("#select_left").multiSelect("#select_right", options);
       });
    // --></script>
+   <style type="text/css">
+       img { border: none; }
+       p { margin: 0; padding: 3px 0; }
+       select { width: 75px; }
+   </style>
 </head>
 
 <body>
    <form action="test-selects-submit.php" method="get">
 		<table>
 	      <tr>
-	         <td>
-	            <p><a id="options_up" href="#">
-	               <img src="arrow_up.gif" alt="^;" />
-	            </a></p>
-
-	           <p><a id="options_down" href="#"> 
-	               <img src="arrow_down.gif" alt="V" />
-	            </a></p>
-	         </td>
 	         <td><select name="left[]" id="select_left" multiple="multiple" size="6">
 	            <option value="8">Item 1</option>
 	            <option value="7">Item 2</option>
@@ -47,7 +41,12 @@
 	            <p><a id="options_right" href="#">
 	               <img src="arrow_right.gif" alt="&gt;" />
 	            </a></p>
-
+	            <p><a id="options_right_all" href="#">
+	               <img src="arrow_right_all.gif" alt="&gt;&gt;" />
+	            </a></p>
+	           <p><a id="options_left_all" href="#"> 
+	               <img src="arrow_left_all.gif" alt="&lt;&lt;" />
+	            </a></p>
 	           <p><a id="options_left" href="#"> 
 	               <img src="arrow_left.gif" alt="&lt;" />
 	            </a></p>
@@ -59,15 +58,6 @@
 	            <option value="2">Item 7</option>
 	            <option value="1">Item 8</option>
 	         </select></td>
-	         <td>
-	            <p><a id="dest_up" href="#">
-	               <img src="arrow_up.gif" alt="^;" />
-	            </a></p>
-
-	           <p><a id="dest_down" href="#"> 
-	               <img src="arrow_down.gif" alt="V" />
-	            </a></p>
-	         </td>
 	      </tr>
 	   </table>
 		
