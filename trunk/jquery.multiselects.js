@@ -3,7 +3,7 @@
 * http://code.google.com/p/jqmultiselects/
 *
 * Copyright (c) 2007 Rob Desbois
-* Copyright (c) 2011 Rob Desbois, Yury Samsonov
+*               2011 Yury Samsonov
 * Dual licensed under the MIT and GPL licenses:
 * http://www.opensource.org/licenses/mit-license.php
 * http://www.gnu.org/licenses/gpl.html
