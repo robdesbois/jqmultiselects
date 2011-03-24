@@ -1,5 +1,5 @@
 #summary Description of options array passed to jQuery.multiSelect()
-#labels Featured
+#labels Deprecated
 
 = Introduction =
 As of jqMultiSelects v0.2, the second parameter to jQuery.multiSelect() is an array of options controlling the plugin's behaviour. They are described below.
